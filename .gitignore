@@ -1,0 +1,16 @@
+.DS_Store
+._*
+
+_backup/
+
+.env
+.env.*
+!.env.example
+/config/env.php
+
+*.log
+*.tmp
+*.bak
+
+vendor/
+node_modules/

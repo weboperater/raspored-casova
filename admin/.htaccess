@@ -1,0 +1,6 @@
+Options -Indexes
+
+# Protect PHP includes (underscore prefix)
+<FilesMatch "^_">
+    Require all denied
+</FilesMatch>
